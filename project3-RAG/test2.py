@@ -5,7 +5,7 @@ from google import genai
 os.environ['HTTP_PROXY'] = 'http://127.0.0.1:10809'
 os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:10809'
 
-client = genai.Client(api_key="AIzaSyBza-5bmvSoFRBLjFPHQR2xD7911qm0UI8")
+client = genai.Client(api_key="apikey")
 
 # 生成向量
 result = client.models.embed_content(
