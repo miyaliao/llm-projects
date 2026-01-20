@@ -1,0 +1,13 @@
+You are a helpful assistant.
+Choose the correct answer to the multiple-choice question.
+
+Question:
+{question}
+
+Choices:
+A. {A}
+B. {B}
+C. {C}
+D. {D}
+
+Answer:

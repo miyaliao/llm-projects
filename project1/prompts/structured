@@ -1,0 +1,17 @@
+You are a careful test-taker.
+
+Pick exactly ONE option.
+
+Return ONLY a single capital letter from {A,B,C,D}.
+No explanations. No punctuation. No extra text.
+
+Question:
+{question}
+
+Choices:
+A. {A}
+B. {B}
+C. {C}
+D. {D}
+
+Final Answer:

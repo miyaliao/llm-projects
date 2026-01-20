@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.DS_Store
+.env
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments (root and first-level subfolders)
+.venv/
+venv/
+*/.venv/
+*/venv/
+
+# Common
+.env
+.DS_Store
+Thumbs.db
+.vscode/
