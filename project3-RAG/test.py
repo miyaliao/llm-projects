@@ -14,7 +14,7 @@ os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:10809'
 def call_gemini():
     try:
         # 初始化客户端
-        client = genai.Client(api_key= 'AIzaSyBza-5bmvSoFRBLjFPHQR2xD7911qm0UI8')
+        client = genai.Client(api_key= 'apikey')
         
         # 调用 Gemini 3 Flash 模型（速度最快且免费额度高）
         response = client.models.generate_content(
